@@ -7,7 +7,7 @@
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "rimraf dist/ && tsc",
-    "postinstall": "tsc --outDir ./dist"
+    "postinstall": "npx tsc --outDir ./dist"
   },
   "repository": {
     "type": "git",
